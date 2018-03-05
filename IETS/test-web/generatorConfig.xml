@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="testDB">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/testdb" driverClass="com.mysql.jdbc.Driver" password="Passw0rd" userId="root" />
+    <javaModelGenerator targetPackage="com.ietscode.entity" targetProject="test-web" >
+    	<property name="enableSubPackages" value="true" />
+  		<property name="trimStrings" value="true" />    
+    </javaModelGenerator>
+    <sqlMapGenerator targetPackage="com.ietscode.dao.mapper" targetProject="test-web" >
+    	<property name="enableSubPackages" value="true" />    	
+    </sqlMapGenerator>
+    <javaClientGenerator targetPackage="com.ietscode.dao" targetProject="test-web" type="XMLMAPPER" >
+    	<property name="enableSubPackages" value="true" ></property>    	
+    </javaClientGenerator>
+    <table schema="testdb" tableName="appointment">
+      
+    </table>
+    <table schema="testdb" tableName="book">
+    
+    </table>
+  </context>
+</generatorConfiguration>
