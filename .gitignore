@@ -1,3 +1,12 @@
 /IETS/.metadata
 /IETS/.recommenders
 /IETS/RemoteSystemsTempFiles
+/IETS/Servers
+/IETS/test-web/.metadata
+/IETS/test-web/.settings
+/IETS/test-web/RemoteSystemsTempFiles
+/IETS/test-web/target
+/IETS/test-web/.classpath
+/IETS/test-web/.project
+/IETS/test-web/.springBeans
+/IETS/test-web/.springWebflow
